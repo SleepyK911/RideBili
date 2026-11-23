@@ -75,7 +75,7 @@ RideBili 是一个面向 **BMW iDrive 7 / MGU** 的非官方哔哩哔哩客户�
 SleepyK911/RideBili
 ```
 
-也可粘贴仓库链接：**https://github.com/SleepyK911/RideBili**。通道请选择 **Releases / 发布**。刷新后会列出 **RideBili** 和 **RideBili 播放服务**；安装 RideBili 时，Store 会先处理声明的依赖。
+也可粘贴仓库链接：[https://github.com/SleepyK911/RideBili](https://github.com/SleepyK911/RideBili)。通道请选择 **Releases / 发布**。刷新后会列出 **RideBili** 和 **RideBili 播放服务**；安装 RideBili 时，Store 会先处理声明的依赖。
 
 本源使用带大小及 SHA-256 校验的预编译包。Node.js 22 沿用上游发布的原包，并列为可自动补齐的依赖；满足版本要求的现有运行时会保留。Renderer、Python、部署工具和 Controller gate 仍由对应的官方来源提供。
 

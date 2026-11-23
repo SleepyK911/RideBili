@@ -1,0 +1,77 @@
+{
+  "schema": 2,
+  "components": [
+    {
+      "id": "ride_bili",
+      "title": "RideBili",
+      "description": "BMW iDrive 7 非官方 B 站客户端，支持扫码登录、视频搜索和流畅优先播放。",
+      "version": "0.1.21",
+      "kind": "app",
+      "artifact": {
+        "name": "ride_bili@0.1.21.tgz",
+        "size": 1463102,
+        "sha256": "e2c36f434c544092cfa18aebcfd2456fb818058e69f04fd6e9b74db36c23a2e7",
+        "url": "https://github.com/SleepyK911/RideBili/releases/download/v0.1.21/ride_bili@0.1.21.tgz"
+      },
+      "uninstallable": true,
+      "mguHmi": [
+        "ID7"
+      ],
+      "requires": {
+        "ride-bili-d": "0.1.21",
+        "mgu-render": "0.6.16",
+        "mgu-inputgate": "1.0.0"
+      },
+      "icon": "ride_bili.png",
+      "iconSha256": "fd85b1d774863b67d4f0a2151b84f8759a0e64fa43e1dc70d05ab81fb5308b41",
+      "author": "Kan Ning"
+    },
+    {
+      "id": "ride-bili-d",
+      "title": "RideBili 播放服务",
+      "description": "B 站接口、音频及 H.264 硬解码。",
+      "version": "0.1.21",
+      "kind": "tool",
+      "artifact": {
+        "name": "ride-bili-d@0.1.21.tgz",
+        "size": 4625400,
+        "sha256": "65ff7643f369a2720bdbe1edf1591e6fb413c619486b4768ce2f2752511a65f3",
+        "url": "https://github.com/SleepyK911/RideBili/releases/download/v0.1.21/ride-bili-d@0.1.21.tgz"
+      },
+      "uninstallable": true,
+      "mguHmi": [
+        "ID7"
+      ],
+      "requires": {
+        "mgu-deploy": "0.7.0",
+        "mgu-python": "1.0.2",
+        "jap-node22": "22.23.4",
+        "mgu-render": "0.6.16"
+      },
+      "author": "Kan Ning"
+    },
+    {
+      "id": "jap-node22",
+      "kind": "tool",
+      "title": "Node.js 22",
+      "description": "Node.js 22 LTS for the background services of Moonride and RideTube (BMW's apps keep the system Node 8)",
+      "author": "JustAnotherPU",
+      "version": "22.23.4",
+      "artifact": {
+        "name": "jap-node22@22.23.4.tgz",
+        "size": 49203293,
+        "sha256": "c62a8e2a3803b858b4d1020cb19746c8bd9ae8b753145f80c5adf7d781692743",
+        "url": "https://github.com/JustAnotherPU/mgu-apps/releases/download/catalog/jap-node22@22.23.4.tgz"
+      },
+      "requires": {
+        "mgu-deploy": "0.7.0"
+      },
+      "uninstallable": true,
+      "mguHmi": [
+        "ID7"
+      ],
+      "optional": true
+    }
+  ],
+  "commit": "c078963d106a47b7b8c79905ee550088688156e2"
+}

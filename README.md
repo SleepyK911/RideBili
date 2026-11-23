@@ -67,6 +67,32 @@ RideBili 是一个面向 **BMW iDrive 7 / MGU** 的非官方哔哩哔哩客户�
 
 ## 安装与使用
 
+### 直接添加软件源（推荐）
+
+在 **MGU Store → Sources / 来源 → Add / 添加 → GitHub** 中输入：
+
+```text
+SleepyK911/RideBili
+```
+
+也可粘贴仓库链接：**https://github.com/SleepyK911/RideBili**。通道请选择 **Releases / 发布**。刷新后会列出 **RideBili** 和 **RideBili 播放服务**；安装 RideBili 时，Store 会先处理声明的依赖。
+
+本源使用带大小及 SHA-256 校验的预编译包。Node.js 22 沿用上游发布的原包，并列为可自动补齐的依赖；满足版本要求的现有运行时会保留。Renderer、Python、部署工具和 Controller gate 仍由对应的官方来源提供。
+
+### Windows 离线仓库管理器
+
+在 **BMW MGU 离线仓库管理器 1.1.0 / 1.2.0** 中点击「添加 GitHub 来源」，粘贴上述仓库链接。自动识别结果应为 **发布目录（catalog）**；手动选择时也选该通道。随后可检查版本、生成部署 ZIP，并使用管理器原有的部署记录及增量更新功能。
+
+车机联网时使用 Releases，Windows 管理器使用发布目录；二者读取同一个目录。`main` 分支和稳定标签用于查看源码。
+
+固定发布目录地址（也可供支持 HTTPS 目录的工具使用）：
+
+```text
+https://github.com/SleepyK911/RideBili/releases/download/catalog/catalog.json
+```
+
+### 手动 USB 安装
+
 1. 在 [Releases](https://github.com/SleepyK911/RideBili/releases/latest) 下载 `RideBili-0.1.21-MGU-USB.zip`。
 2. 在 Windows 或 Mac 上解压，把 **`USB` 文件夹内的 `mgu-repo`** 复制到 U 盘根目录。
 3. 在车机 MGU Store 从 USB 安装或更新。确认 **RideBili 和 RideBili 播放服务都为 0.1.21**，按 Store 提示重新启动。

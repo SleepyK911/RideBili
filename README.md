@@ -81,7 +81,7 @@ SleepyK911/RideBili
 
 ### Windows 离线仓库管理器
 
-在 **BMW MGU 离线仓库管理器 1.1.0 / 1.2.0** 中点击「添加 GitHub 来源」，粘贴上述仓库链接。自动识别结果应为 **发布目录（catalog）**；手动选择时也选该通道。随后可检查版本、生成部署 ZIP，并使用管理器原有的部署记录及增量更新功能。
+在 **[BMW MGU 离线仓库管理器](https://github.com/SleepyK911/BMW-MGU-Offline-Manager)**（[下载 Windows 版](https://github.com/SleepyK911/BMW-MGU-Offline-Manager/releases/latest)）中点击「添加 GitHub 来源」，粘贴上述仓库链接。自动识别结果应为 **发布目录（catalog）**；手动选择时也选该通道。随后可检查版本、生成部署 ZIP，并使用管理器原有的部署记录及增量更新功能。
 
 车机联网时使用 Releases，Windows 管理器使用发布目录；二者读取同一个目录。`main` 分支和稳定标签用于查看源码。
 

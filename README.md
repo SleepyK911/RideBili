@@ -7,7 +7,7 @@
 **为小宁兄弟呈现的 B 站播放器**  
 BMW iDrive 7 · MGU · 乘客娱乐与驻车使用
 
-[![Release](https://img.shields.io/github/v/release/SleepyK911/RideBili?label=release&color=00a1d6)](https://github.com/SleepyK911/RideBili/releases/latest)
+[![Release](https://img.shields.io/badge/release-0.1.21-00a1d6)](https://github.com/SleepyK911/RideBili/releases/latest)
 [![License](https://img.shields.io/badge/license-GPL--3.0--or--later-blue)](LICENSE)
 [![Platform](https://img.shields.io/badge/platform-BMW%20iDrive%207-555555)](#运行环境)
 

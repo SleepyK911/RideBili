@@ -1,0 +1,8 @@
+RideBili runs two separate, statically linked audio conversion executables.
+Both use FFmpeg n7.1.2 (LGPL-2.1-or-later configuration).
+The MP3 helper also uses LAME 3.100 (LGPL-2.0-or-later).
+See tools/build_audio.sh and tools/build_pcm.sh.
+FFmpeg: https://github.com/FFmpeg/FFmpeg/tree/n7.1.2
+LAME: https://lame.sourceforge.io/
+The accompanying RideBili source archive contains the corresponding
+source archives, their original license notices and the build scripts.

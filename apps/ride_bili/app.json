@@ -1,0 +1,203 @@
+{
+  "id": "ride_bili",
+  "title": "RideBili",
+  "description": "BMW iDrive 7 非官方 B 站客户端，支持扫码登录、视频搜索和流畅优先播放。",
+  "version": "0.1.21",
+  "license": "GPL-3.0-or-later",
+  "vendor": "custom",
+  "loggingId": "OBIL",
+  "iconGlyph": "哔",
+  "signals": {
+    "org.genivi.am.commandinterface.CommandControl": {
+      "_instances": "1",
+      "_methods": [
+        "connect",
+        "disconnect",
+        "getListMainConnections"
+      ],
+      "_optional": "实时音频"
+    },
+    "org.genivi.am.routinginterface.RoutingControlObserver": {
+      "_instances": "1",
+      "_methods": [
+        "hookSourceAvailablityStatusChange"
+      ],
+      "_optional": "实时音频"
+    }
+  },
+  "screens": [
+    {
+      "name": "VIEW",
+      "kind": "canvas",
+      "title": "小宁兄弟 - ( ゜- ゜)つロ 乾杯~",
+      "hmi": false,
+      "bg": "#0f0f0f",
+      "buttons": [
+        [
+          "BTN_PLAY",
+          "播放"
+        ],
+        [
+          "BTN_RW",
+          "-10 s"
+        ],
+        [
+          "BTN_FF",
+          "+10 s"
+        ],
+        [
+          "BTN_LIST",
+          "播放器"
+        ],
+        [
+          "BTN_FIND",
+          "搜索"
+        ],
+        [
+          "BTN_SETTINGS",
+          "设置"
+        ]
+      ],
+      "items": [],
+      "requireNative": true
+    },
+    {
+      "name": "MAIN",
+      "kind": "menu",
+      "title": "小宁兄弟 - ( ゜- ゜)つロ 乾杯~",
+      "items": [
+        [
+          "button",
+          "BTN_SEARCH",
+          "搜索"
+        ],
+        [
+          "text",
+          "MAIN_INFO",
+          ""
+        ],
+        [
+          "button",
+          "BTN_NOW",
+          "正在播放"
+        ],
+        [
+          "button",
+          "BTN_RESULTS",
+          "搜索结果"
+        ],
+        [
+          "button",
+          "BTN_HOME",
+          "首页"
+        ],
+        [
+          "button",
+          "BTN_SUBS",
+          "关注"
+        ],
+        [
+          "button",
+          "BTN_WL",
+          "稍后再看"
+        ],
+        [
+          "button",
+          "BTN_S1",
+          ""
+        ],
+        [
+          "button",
+          "BTN_S2",
+          ""
+        ],
+        [
+          "button",
+          "BTN_S3",
+          ""
+        ],
+        [
+          "button",
+          "BTN_S4",
+          ""
+        ],
+        [
+          "button",
+          "BTN_S5",
+          ""
+        ],
+        [
+          "button",
+          "BTN_S6",
+          ""
+        ],
+        [
+          "button",
+          "BTN_ACCOUNT",
+          "扫码登录"
+        ]
+      ]
+    }
+  ],
+  "settings": [
+    {
+      "key": "audioMode",
+      "label": "音频播放",
+      "type": "choice",
+      "default": "auto",
+      "options": [
+        [
+          "auto",
+          "实时音频（推荐）"
+        ],
+        [
+          "mp3",
+          "兼容 MP3"
+        ]
+      ]
+    },
+    {
+      "key": "defaultQuality",
+      "label": "默认读取清晰度",
+      "type": "choice",
+      "default": "auto",
+      "options": [
+        ["auto", "自动（优先 480P）"],
+        ["360", "360P"],
+        ["480", "480P"],
+        ["720", "720P"],
+        ["1080", "1080P"]
+      ]
+    },
+    {
+      "key": "fill",
+      "label": "填满屏幕（裁切画面）",
+      "type": "bool",
+      "default": false,
+      "reset": 2
+    },
+    {
+      "key": "quitApp",
+      "label": "完全退出应用",
+      "type": "action"
+    },
+    {
+      "key": "copyright",
+      "label": "© 2026 Kan Ning",
+      "type": "info",
+      "text": "为小宁兄弟呈现"
+    },
+    {
+      "key": "credits",
+      "label": "基于 RideTube 开发",
+      "type": "info",
+      "text": "参考 Moonride、BiliPai"
+    },
+    {
+      "key": "license",
+      "label": "开源许可证",
+      "type": "info",
+      "text": "GPL-3.0-or-later"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+build/
+dist/
+oap-sdk
+__pycache__/
+.DS_Store
+
+node_modules/
+*.log
+.env
+.env.*
+!.env.example
+state/
+cache/
+third-party-audio/

@@ -2,7 +2,7 @@
 
 ## 0.1.21 · 首次公开发布
 
-- 设置显示「© 2026 Kan Ning · 为小宁兄弟呈现」、项目致谢与 GPL 许可证。
+- 设置显示作者署名、项目致谢与 GPL 许可证。
 - 修复兼容 MP3 恢复播放期间临时进度覆盖问题；连续恢复以最后一次为准，借鉴 RideTube 8977a11。
 - 核对 Store 0.9.42、Updater 0.8.53、Renderer 0.6.25、Deploy 0.8.27、Uplink 0.7.13、Python 1.0.3、独立 GPU renderer 2.1.19 与 Controller gate 1.2.1。
 - 原有实时 PCM 和 CDN 播放链路沿用 0.1.20。

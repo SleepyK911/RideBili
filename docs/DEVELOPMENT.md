@@ -52,7 +52,7 @@ python3 tools/release.py /path/to/USB
 
 ## 来源
 
-© 2026 Kan Ning。为小宁兄弟呈现。
+© 2026 Kan Ning。
 
 上述署名用于 RideBili 的新增改动。RideBili 基于 RideTube 开发，参考 Moonride、BiliPai 等项目；原作者的版权与第三方许可证继续有效，整体按 GPL-3.0-or-later 发布。
 

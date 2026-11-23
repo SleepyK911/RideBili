@@ -4,7 +4,7 @@
 
 # RideBili
 
-**为小宁兄弟呈现的 B 站播放器**  
+**BMW iDrive 7 / MGU 哔哩哔哩客户端**  
 BMW iDrive 7 · MGU · 乘客娱乐与驻车使用
 
 [![Release](https://img.shields.io/badge/release-0.1.21-00a1d6)](https://github.com/SleepyK911/RideBili/releases/latest)
@@ -19,9 +19,9 @@ BMW iDrive 7 · MGU · 乘客娱乐与驻车使用
 
 RideBili 是一个面向 **BMW iDrive 7 / MGU** 的非官方哔哩哔哩客户端，基于 [RideTube](https://github.com/JustAnotherPU/ridetube) 改编。它把 B 站的视频浏览、扫码登录和播放接入车机，围绕手机热点下的起播速度、车机性能和音频稳定性做了适配。
 
-这个项目最初是我为自己的孩子——**小宁兄弟**——制作的小礼物，希望给家人多一种轻松观看视频的方式。图标、首页问候和设置中的署名保留了这份家庭色彩；公开分享的版本也会带着这些个人化元素。
+这个项目最初为作者的孩子们制作，希望给家人多一种轻松观看视频的方式。应用保留了部分个人化图标和界面文字，公开分享的版本也会带有这些元素。
 
-> **请把注意力留给道路。** 本项目面向乘客娱乐和安全驻车场景。驾驶员在行驶中不应观看视频、浏览内容或操作应用；请在安全停车后完成设置与选片，并遵守当地交通规则。孩子观看时，请由监护人选择适龄内容。
+> **请把注意力留给道路。** 本应用不限制车辆行驶时的视频播放。驾驶员仍应始终专注路况、安全驾驶，行驶中请勿观看视频、浏览内容或操作本应用。相关操作应由乘客完成，或在安全停车后进行，并遵守当地交通规则。儿童观看时，请由监护人选择适龄内容。
 
 ## 界面预览
 
@@ -116,7 +116,7 @@ https://github.com/SleepyK911/RideBili/releases/download/catalog/catalog.json
 
 ## 致谢与许可证
 
-**© 2026 Kan Ning · 为小宁兄弟呈现。**
+**© 2026 Kan Ning**
 
 这一署名对应 RideBili 的新增改动，原项目与第三方作者的版权继续保留。感谢以下项目及其贡献者：
 
@@ -135,6 +135,6 @@ https://github.com/SleepyK911/RideBili/releases/download/catalog/catalog.json
 <details>
 <summary>English overview</summary>
 
-RideBili is an unofficial Bilibili client for BMW iDrive 7 / MGU, adapted from RideTube. It supports QR sign-in, browsing, search, H.264 hardware decoding, real-time PCM audio, selectable quality and local resume history. Originally made by Kan Ning for his children, it retains family-specific artwork and wording. Intended for passengers and safe parked use: drivers must remain focused on the road. Development screenshots use original demo artwork and simulated content, not a real account. GPL-3.0-or-later; upstream and third-party notices are preserved.
+RideBili is an unofficial Bilibili client for BMW iDrive 7 / MGU, adapted from RideTube. It supports QR sign-in, browsing, search, H.264 hardware decoding, real-time PCM audio, selectable quality and local resume history. Originally made for the author's children, it retains some personalized artwork and interface text. The app does not block video playback while the vehicle is moving. Drivers must stay focused on the road and must not watch or operate video while driving; passengers should handle playback, or use it when safely parked. Development screenshots use original demo artwork and simulated content, not a real account. GPL-3.0-or-later; upstream and third-party notices are preserved.
 
 </details>
